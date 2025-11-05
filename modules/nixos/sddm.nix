@@ -63,7 +63,7 @@ in
         description = "Enable the clock on the login screen";
       };
 
-      dateFormate = mkOption {
+      dateFormat = mkOption {
         type = types.str;
         default = null;
         description = "Changes the Date format";
