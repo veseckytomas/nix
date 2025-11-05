@@ -63,6 +63,12 @@ in
         description = "Enable the clock on the login screen";
       };
 
+      dateFormate = mkOption {
+        type = types.str;
+        default = null;
+        description = "Changes the Date format";
+      };
+
       assertQt6Sddm =
         lib.mkEnableOption ''
           checking if `services.displayManager.sddm.package` is the Qt 6 version.
