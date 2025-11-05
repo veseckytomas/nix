@@ -66,7 +66,7 @@ in
       dateFormat = mkOption {
         type = types.str;
         default = null;
-        description = "Changes the Date format";
+        description = "Change the Date format";
       };
 
       assertQt6Sddm =
