@@ -203,6 +203,7 @@ in
           loginBackground
           userIcon
           clockEnabled
+          dateFormat
           ;
       })
     ];
