@@ -46,7 +46,7 @@ buildCatppuccinPort (finalAttrs: {
       --replace-fail 'ClockEnabled="true"' 'ClockEnabled="false"'
     ''
   + lib.optionalString (dateFormat != null) ''
-    echo ${dateFormat} >> src/theme.conf
+    echo foo >> src/theme.conf
   '';
 
   nativeBuildInputs = [
