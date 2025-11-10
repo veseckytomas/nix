@@ -65,7 +65,7 @@ in
 
       dateFormat = mkOption {
         type = types.str;
-        default = null;
+        default = "dddd, MMMM d";
         description = "Change the Date format";
       };
 
